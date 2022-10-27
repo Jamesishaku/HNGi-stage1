@@ -21,7 +21,7 @@ function App() {
       <img src={require("./images/github.png")} alt="github icon"/>
       </section>
       <footer>
-        <h4>Zuri<span>.</span>Internship</h4>
+        <h3>Zuri<span className="red">.</span>Internship</h3>
         <p>HNG Internship 9 Frontend Task</p>
         <img src={require("./images/I4G.png")} alt="I4G logo"/>
       </footer>
