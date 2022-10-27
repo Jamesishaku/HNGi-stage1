@@ -78,6 +78,26 @@ footer .red{
   padding: 2px;
 }
 
+@media screen and (max-width:375px) {
+  body{
+    font-size: 12px;
+  }
+
+  .App{
+    padding: 0 3%;
+  }
+
+  main{
+    padding: 0;
+  }
+
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    margin-top: 50px;
+  }
+}
 
 
 
