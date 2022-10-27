@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="profile">
-        <img src={require('./images/photo.JPG')} alt="James Ishaku photo" id="profile__img"/>
+        <img src={require('./images/photo.JPG')} alt="James Ishaku" id="profile__img"/>
         <h3 id="twitter">James Ishaku</h3>
         <p id="slack">js_nerd</p>
       </header>
