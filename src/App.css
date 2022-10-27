@@ -31,6 +31,25 @@ header p{
   display: none;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main a{
+  background-color: #EAECF0;
+  display: block;
+  padding: 24px 0;
+  width: 100%;
+  color: #101828;
+  text-decoration: none;
+}
+
+
+
 
 
 
