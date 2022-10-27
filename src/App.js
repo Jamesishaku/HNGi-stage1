@@ -6,11 +6,11 @@ function App() {
     <div className="App">
       <header className="profile">
         <img src={require('./images/photo.JPG')} alt="James Ishaku photo" id="profile__img"/>
-        <h3 id="twitter">James🎯</h3>
+        <h3 id="twitter">James Ishaku</h3>
         <p id="slack">js_nerd</p>
       </header>
       <main>
-          <div>Twitter Link</div>
+          <div><a href="https://twitter.com/js_nerd">Twitter Link</a></div>
           <div><a href="https://books.zuri.team" id="books">Zuri Books</a></div>
           <div><a href="https://books.zuri.team/python-for-beginners?ref_id=js_nerd" id="book__python">Python Book</a></div>
           <div><a href="https://background.zuri.team" id="pitch">Background Check for Coders</a></div>
