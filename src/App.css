@@ -39,11 +39,13 @@ main {
   gap: 8px;
 }
 
-main a{
-  background-color: #EAECF0;
-  display: block;
+main div{
   padding: 24px 0;
+  background-color: #EAECF0;
   width: 100%;
+}
+
+main a{
   color: #101828;
   text-decoration: none;
 }

@@ -10,12 +10,11 @@ function App() {
         <p id="slack">js_nerd</p>
       </header>
       <main>
-          <a href="https://twitter.com/js_nerd">Twitter Link</a>
-          <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
-          <a href="https://books.zuri.team" id="books">Zuri Books</a>
-          <a href="https://books.zuri.team/python-for-beginners?ref_id=js_nerd" id="book__python">Python Book</a>
-          <a href="https://background.zuri.team" id="pitch">Background Check for Coders</a>
-          <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
+          <div>Twitter Link</div>
+          <div><a href="https://books.zuri.team" id="books">Zuri Books</a></div>
+          <div><a href="https://books.zuri.team/python-for-beginners?ref_id=js_nerd" id="book__python">Python Book</a></div>
+          <div><a href="https://background.zuri.team" id="pitch">Background Check for Coders</a></div>
+          <div><a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a></div>
       </main>
       <section className="social-section">
       <img src={require("./images/slack.png")} alt="slack icon"/>
