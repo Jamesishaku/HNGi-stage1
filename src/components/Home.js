@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Header from "./Header"
 export default function Home() {
     return (
@@ -9,7 +10,7 @@ export default function Home() {
             <div><a href="https://books.zuri.team/python-for-beginners?ref_id=js_nerd" id="book__python">Python Book</a></div>
             <div><a href="https://background.zuri.team" id="pitch">Background Check for Coders</a></div>
             <div><a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a></div>
-            <div><a href="" id="contact">Contact Me</a></div>
+            <div><Link to="/contact" id="contact">Contact Me</Link></div>
             </main>
             <section className="social-section">
             <img src={require("../images/slack.png")} alt="slack icon"/>
