@@ -1,10 +1,10 @@
 export default function Contact() {
     return (
-        <main>
+        <main className="contact_page">
             <h2>Contact Me</h2>
             <p>Hi there, contact me to ask about anything you have in mind.</p>
             <form>
-                <div className="form-group">
+                <div className="form-group multiple">
                     <div className="input-group">
                         <label htmlFor="first_name">Full name</label>
                         <input type="text" placeholder="Enter your first name" id="first_name"/>
@@ -23,7 +23,7 @@ export default function Contact() {
                     <textarea placeholder="Send me a message and I'll reply you as soon as possible... " id="message"></textarea>
                 </div>
                 <div className="form-group">
-                   <input type="checkbox" id="agreement"/> <label htmlFor="agreement">You agree to providing your data to James Ishaku who may contact you.</label>
+                   <input type="checkbox" id="agreement"/> <label htmlFor="agreement" className="agreement"> &nbsp; You agree to providing your data to James Ishaku who may contact you.</label>
                 </div>
                 <div className="form-group">
                     <input type="submit" value="Send message" id="btn_submit"/>
