@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
         <main className="contact_page">
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
             <p>Hi there, contact me to ask about anything you have in mind.</p>
             <form>
                 <div className="form-group multiple">

@@ -169,6 +169,23 @@ footer .red{
     gap: 14px;
     margin-top: 50px;
   }
+
+  /* CONTACT PAGE */
+  .contact_page{
+    padding: 15% 0;
+  }
+
+  .contact_page p{
+    margin-top: 0;
+  }
+
+  .contact_page .multiple{
+    flex-direction: column;
+  }
+
+  .contact_page .multiple{
+    row-gap: 20px;
+  }
 }
 
 
