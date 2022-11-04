@@ -8,6 +8,10 @@
   font-family: 'Inter', 'Poppins', sans-serif;
 }
 
+body{
+  background-color: #fff;
+}
+
 .App {
   text-align: center;
   padding: 0 5%;
@@ -99,7 +103,7 @@ form{
 
 .contact_page input[type=text], 
 .contact_page input[type=email], 
-.contact_page input[type=submit], 
+.contact_page button, 
 textarea{
   min-width: 100%;
   padding: 10px;
@@ -115,7 +119,7 @@ textarea{
   resize: none;
 }
 
-.contact_page input[type=submit]{
+.contact_page button{
   background-color: #037BFE;
   color: #fff;
   border: none;
@@ -125,6 +129,11 @@ textarea{
 .contact_page .multiple{
   display: flex;
   column-gap: 10px;
+}
+
+.contact_page .form-group p{
+  color: red;
+  font-size: 10px;
 }
 
 
@@ -150,7 +159,7 @@ footer .red{
 }
 
 /* Mobile */
-@media screen and (max-width:414px) {
+@media screen and (max-width:500px) {
   body{
     font-size: 12px;
   }
@@ -181,9 +190,6 @@ footer .red{
 
   .contact_page .multiple{
     flex-direction: column;
-  }
-
-  .contact_page .multiple{
     row-gap: 20px;
   }
 }
