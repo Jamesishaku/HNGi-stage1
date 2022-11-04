@@ -1,9 +1,13 @@
 export default function Contact(props) {
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        alert("Message sent successfully!")
+    }
     return (
         <main className="contact_page">
             <h1>Contact Me</h1>
             <p>Hi there, contact me to ask about anything you have in mind.</p>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div className="form-group multiple">
                     <div className="input-group">
                         <label htmlFor="first_name">Full name</label>
