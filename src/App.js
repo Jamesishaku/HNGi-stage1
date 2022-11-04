@@ -6,11 +6,12 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 
 function App() {
+  const name = "James Ishaku"
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home name={ name } />} exact />
+        <Route path="/contact" element={<Contact name={ name } />} />
       </Routes>
       <Footer />
     </div>

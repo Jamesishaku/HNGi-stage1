@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
 import Header from "./Header"
-export default function Home() {
+export default function Home(props) {
     return (
         <>
-            <Header/>
+            <Header name={props.name} />
             <main>
             <div className='link_container'><a href="https://twitter.com/js_nerd">Twitter Link</a></div>
             <div className='link_container'><a href="https://books.zuri.team" id="books">Zuri Books</a></div>

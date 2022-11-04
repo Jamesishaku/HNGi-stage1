@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Contact(props) {
     return (
         <main className="contact_page">
             <h1>Contact Me</h1>
@@ -23,7 +23,7 @@ export default function Contact() {
                     <textarea placeholder="Send me a message and I'll reply you as soon as possible... " id="message"></textarea>
                 </div>
                 <div className="form-group">
-                   <input type="checkbox" id="agreement"/> <label htmlFor="agreement" className="agreement"> &nbsp; You agree to providing your data to James Ishaku who may contact you.</label>
+                   <input type="checkbox" id="agreement"/> <label htmlFor="agreement" className="agreement"> &nbsp; You agree to providing your data to {props.name} who may contact you.</label>
                 </div>
                 <div className="form-group">
                     <input type="submit" value="Send message" id="btn_submit"/>
