@@ -30,7 +30,7 @@ export default function Contact(props) {
                    <input type="checkbox" id="agreement" required/> <label htmlFor="agreement" className="agreement"> &nbsp; You agree to providing your data to {props.name} who may contact you.</label>
                 </div>
                 <div className="form-group">
-                    <input type="submit" value="Send message" id="btn_submit"/>
+                    <input type="submit" value="Send message" id="btn__submit"/>
                 </div>
             </form>
         </main>
